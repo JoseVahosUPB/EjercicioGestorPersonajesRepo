@@ -3,7 +3,7 @@ skinparam classAttributeIconSize 0
 !theme plain
 
 class GestorPersonajes <<static>>{
-    +ConsultarPersonajes(): void
+    {static} +ConsultarPersonajes(): void
 }
 class GestorObjetos <<static>>{
 
@@ -16,8 +16,8 @@ class Personaje{
     +ModificarPersonaje(): void
 }
 class Inventario{
-    +AgregarObjeto(Objeto: objeto): void
-    +RetirarObjeto(Objeto: objeto): void
+    +AgregarObjeto(objeto: Objeto): void
+    +RetirarObjeto(objeto: Objeto): void
     +CalcularValorTotal(): void
 }
 class Objeto{

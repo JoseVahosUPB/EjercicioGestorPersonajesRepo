@@ -10,6 +10,20 @@ Primeros diagramas
 
     [W] Añadir métodos
 
+Primeros pasos
+
+[W] Creación de los archivos de las clases
+
+[W] Llenar cada clase con sus características, métodos y atributos
+
+[W] Relacionar efectivamente las clases
+
+
+Parámetros y constructores
+
+[] Crear parámetros para los atributos que lo necesiten
+
+[] Crear constructores para las clases que lo necesiten
 
 
 Setup
