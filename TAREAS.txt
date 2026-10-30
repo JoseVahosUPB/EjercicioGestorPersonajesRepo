@@ -41,24 +41,29 @@ Resolver Consultar características
 
 [W] Llamar a Consultarinventario()
 
-[] Añadir ConsultarInventario() al diagrama de clases
+[W] Añadir ConsultarInventario() al diagrama de clases
 
 
-Resolver Consultar todos los personajes
+Resolver casos de uso
 
-Resolver Crear personajes
+[W] Resolver Consultar todos los personajes
 
-Resolver Agregar un objeto al inventario
+[W] Resolver Crear personajes (se resuelve con el constructor)
 
-Resolver RetirarObjeto()
+[W] Resolver Agregar un objeto al inventario
 
-- Sin tiene varias veces el mismo objeto, solo se retirará uno de esos objetos
+[W] Resolver RetirarObjeto()
 
-Resolver Calcular valor de los objetos
+    - Sin tiene varias veces el mismo objeto, solo se retirará uno de esos objetos
 
-Resolver Modificar personaje
+[W] Resolver Calcular valor de los objetos
+
+[W] Resolver Modificar personaje
+
+    [W] Añadir parámetros al método
+
+    [W] Actualizar diagrama de clases
 
 
-
-Menusificación
+Menú
 

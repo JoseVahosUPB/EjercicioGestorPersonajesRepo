@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Text;
 
 namespace EjercicioGestorPersonajes
@@ -20,17 +21,22 @@ namespace EjercicioGestorPersonajes
             objetos = new List<Objeto>();
         }
         // Métodos
-        public void AgregarObjeto(Objeto objeto)
+        public void AgregarObjeto(Objeto objeto) // Agrega un objeto al inventario
         {
-
+            objetos.Add(objeto);
         }
-        public void RetirarObjeto(Objeto objeto)
+        public void RetirarObjeto(Objeto objeto) // Remueve el objeto específicado del inventario
         {
-
+            objetos.Remove(objeto);
         }
-        public void CalcularValorTotal()
+        public void CalcularValorTotal() // Calcula y muestra la suma de los valores de los objetos del inventario
         {
-
+            int suma = 0;
+            foreach (Objeto objeto in objetos)
+            {
+                suma += objeto.Valor;
+            }
+            Console.WriteLine($"Valor total: {suma}o");
         }
         public void ConsultarInventario() // Muestra cada uno de los objetos en el inventario
         {

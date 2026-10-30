@@ -13,7 +13,7 @@ class Personaje{
     -vida: float
     -nivel: int
     +ConsultarCaracteristicas(): void
-    +ModificarPersonaje(): void
+    +ModificarPersonaje(nombre: string, vida: float, nivel: int): void
 }
 class Inventario{
     +AgregarObjeto(objeto: Objeto): void

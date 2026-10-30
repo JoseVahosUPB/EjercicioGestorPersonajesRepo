@@ -47,11 +47,14 @@ namespace EjercicioGestorPersonajes
             Console.WriteLine($"Vida: {vida}");
             Console.WriteLine($"Nivel: {nivel}");
             inventario.ConsultarInventario();
+            inventario.CalcularValorTotal();
 
         }
-        public void ModificarPersonajes()
+        public void ModificarPersonajes(string nombre, float vida, int nivel) // Cambia la información del personaje
         {
-
+            this.nombre = nombre;
+            this.vida = vida;
+            this.nivel = nivel;
         }
     }
 }

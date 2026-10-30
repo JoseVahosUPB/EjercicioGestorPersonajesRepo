@@ -17,7 +17,10 @@ namespace EjercicioGestorPersonajes
         // Métodos
         public static void ConsultarPersonajes() // Muestra la información de cada personaje
         {
-
+            foreach (Personaje personaje in personajes){
+                personaje.ConsultarCaracteristicas();
+                Console.WriteLine();
+            }
         }
     }
 }
