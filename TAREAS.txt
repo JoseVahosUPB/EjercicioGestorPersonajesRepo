@@ -1,0 +1,40 @@
+Primeros diagramas
+
+[W] Diagrama de casos de uso
+
+[W] Diagrama de clases
+
+    [W] Escoger las clases
+
+    [W] Añadir atributos
+
+    [W] Añadir métodos
+
+
+
+Setup
+
+[] Instanciar objetos
+
+
+
+Resolver Consultar características
+
+Resolver Consultar todos los personajes
+
+Resolver Crear personajes
+
+Resolver Agregar un objeto al inventario
+
+Resolver RetirarObjeto()
+
+- Sin tiene varias veces el mismo objeto, solo se retirará uno de esos objetos
+
+Resolver Calcular valor de los objetos
+
+Resolver Modificar personaje
+
+
+
+Menusificación
+

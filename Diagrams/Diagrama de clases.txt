@@ -1,0 +1,35 @@
+@startuml
+skinparam classAttributeIconSize 0
+!theme plain
+
+class GestorPersonajes <<static>>{
+    +ConsultarPersonajes(): void
+}
+class GestorObjetos <<static>>{
+
+}
+class Personaje{
+    -nombre: string
+    -vida: float
+    -nivel: int
+    +ConsultarCaracteristicas(): void
+    +ModificarPersonaje(): void
+}
+class Inventario{
+    +AgregarObjeto(Objeto: objeto): void
+    +RetirarObjeto(Objeto: objeto): void
+    +CalcularValorTotal(): void
+}
+class Objeto{
+    -nombre: string
+    -valor: int
+}
+
+GestorPersonajes "1" o-- "0..*" Personaje: guarda
+GestorObjetos "1" o-- "0..*" Objeto: guarda
+
+Personaje "1" *-- "1" Inventario: tiene
+
+Inventario "1" o-- "0..*" Objeto: tiene
+
+@enduml

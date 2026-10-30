@@ -1,0 +1,28 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+
+actor "Usuario" as usuario
+
+rectangle "Sistema Hotel Las Palmas" {
+  usecase "Crear personajes" as UC1
+  usecase "Consultar características" as UC2
+  usecase "Agregar objeto al inventario" as UC3
+  usecase "Retirar objeto del inventario" as UC4
+  usecase "Calcular valor de los objetos" as UC5
+  usecase "Modificar personaje" as UC6
+  usecase "Consultar todos los personajes" as UC7
+
+}
+
+usuario -- UC1
+usuario -- UC2
+usuario -- UC3
+usuario -- UC4
+usuario -- UC5
+usuario -- UC6
+usuario -- UC7
+
+UC7 .> UC2 : <<include>>
+
+@enduml
