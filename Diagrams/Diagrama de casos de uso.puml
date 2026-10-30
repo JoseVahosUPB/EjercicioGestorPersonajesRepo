@@ -24,5 +24,6 @@ usuario -- UC6
 usuario -- UC7
 
 UC7 .> UC2 : <<include>>
+UC2 .> UC5 : <<include>>
 
 @enduml

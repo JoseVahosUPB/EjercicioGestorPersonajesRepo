@@ -65,5 +65,38 @@ Resolver casos de uso
     [W] Actualizar diagrama de clases
 
 
-Menú
+Menusificación
+
+[W] Añadir una clase #Menu
+
+[W] Escribir Menu.Principal()
+
+[W] Añadir una clase #Formulario subclase de #Menu
+
+[W] Añadir un GetPersonaje() a #GestorPersonajes
+
+[W] Añadir un GetObjeto() a # GestorObjetos
+
+[W] Actualizar el diagrama de clases
+
+[V] Para cada caso de uso que lo necesite, escribir un formulario (sin validaciones)
+
+[V] Añadir una clase #Opciones subclase de #Menu
+
+
+
+
+
+
+
+
+
+Reflexiones
+
+Ojala hubiera una #IGestor que tuviera un GetByName()
+
+
+
+
+
 

@@ -4,9 +4,11 @@ skinparam classAttributeIconSize 0
 
 class GestorPersonajes <<static>>{
     {static} +ConsultarPersonajes(): void
+    {static} +GetPersonaje(nombre: string): Personaje?
 }
 class GestorObjetos <<static>>{
     {static} +Setup(): void
+    {static} +GetObjeto(nombre: string): Objeto?
 }
 class Personaje{
     -nombre: string

@@ -26,5 +26,16 @@ namespace EjercicioGestorPersonajes
             objetos.Add(new Objeto("Lentes de contacto", 1));
             objetos.Add(new Objeto("Una armadura", 11));
         }
+        public static Objeto? GetObjeto(string nombre) // Devuelve un objeto según su nombre
+        {
+            foreach (Objeto objeto in objetos)
+            {
+                if (objeto.Nombre == nombre)
+                {
+                    return objeto;
+                }
+            }
+            return null;
+        }
     }
 }
