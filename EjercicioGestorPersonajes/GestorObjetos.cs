@@ -7,7 +7,7 @@ namespace EjercicioGestorPersonajes
     internal static class GestorObjetos
     {
         // Atributos
-        private static List<Objeto> objetos;
+        private static List<Objeto> objetos = new List<Objeto>();
         // Parametros
         public static List<Objeto> Objetos
         {
