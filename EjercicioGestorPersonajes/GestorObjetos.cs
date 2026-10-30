@@ -8,5 +8,11 @@ namespace EjercicioGestorPersonajes
     {
         // Atributos
         private static List<Objeto> objetos;
+        // Parametros
+        public static List<Objeto> Objetos
+        {
+            get { return objetos; }
+            set { objetos = value; }
+        }
     }
 }

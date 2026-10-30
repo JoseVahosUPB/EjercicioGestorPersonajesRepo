@@ -8,6 +8,17 @@ namespace EjercicioGestorPersonajes
     {
         // Atributos
         private List<Objeto> objetos;
+        // Propiedades
+        private List<Objeto> Objetos
+        {
+            get { return objetos; }
+            set { objetos = value; }
+        }
+        // Constructores
+        public Inventario()
+        {
+            objetos = new List<Objeto>();
+        }
         // Métodos
         public void AgregarObjeto(Objeto objeto)
         {

@@ -21,9 +21,9 @@ Primeros pasos
 
 Parámetros y constructores
 
-[] Crear parámetros para los atributos que lo necesiten
+[W] Crear parámetros para los atributos que lo necesiten
 
-[] Crear constructores para las clases que lo necesiten
+[W] Crear constructores para las clases que lo necesiten
 
 
 Setup
