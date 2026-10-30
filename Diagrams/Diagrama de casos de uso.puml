@@ -4,7 +4,7 @@ skinparam packageStyle rectangle
 
 actor "Usuario" as usuario
 
-rectangle "Sistema Hotel Las Palmas" {
+rectangle "Sistema de gestión de personajes" {
   usecase "Crear personajes" as UC1
   usecase "Consultar características" as UC2
   usecase "Agregar objeto al inventario" as UC3
