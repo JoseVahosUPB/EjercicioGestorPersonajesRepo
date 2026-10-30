@@ -6,7 +6,7 @@ class GestorPersonajes <<static>>{
     {static} +ConsultarPersonajes(): void
 }
 class GestorObjetos <<static>>{
-
+    {static} +Setup(): void
 }
 class Personaje{
     -nombre: string

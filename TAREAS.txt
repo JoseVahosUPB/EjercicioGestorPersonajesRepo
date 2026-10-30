@@ -28,8 +28,9 @@ Parámetros y constructores
 
 Setup
 
-[] Instanciar objetos
+[] Instanciar objetos con un método en #GestorObjetos
 
+[] Actualizar el diagrama de clases
 
 
 Resolver Consultar características
