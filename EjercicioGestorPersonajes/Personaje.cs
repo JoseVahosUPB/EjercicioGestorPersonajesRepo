@@ -41,8 +41,12 @@ namespace EjercicioGestorPersonajes
             this.inventario = new Inventario();
         }
         // Métodos
-        public void ConsultarCaracteristicas()
+        public void ConsultarCaracteristicas() // Muestra la información del personaje
         {
+            Console.WriteLine($"Nombre: {nombre}");
+            Console.WriteLine($"Vida: {vida}");
+            Console.WriteLine($"Nivel: {nivel}");
+            inventario.ConsultarInventario();
 
         }
         public void ModificarPersonajes()

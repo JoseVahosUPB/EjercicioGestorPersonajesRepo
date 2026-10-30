@@ -19,6 +19,7 @@ class Inventario{
     +AgregarObjeto(objeto: Objeto): void
     +RetirarObjeto(objeto: Objeto): void
     +CalcularValorTotal(): void
+    +Consultarinventario(): void
 }
 class Objeto{
     -nombre: string

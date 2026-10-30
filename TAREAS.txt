@@ -28,12 +28,21 @@ Parámetros y constructores
 
 Setup
 
-[] Instanciar objetos con un método en #GestorObjetos
+[W] Instanciar objetos con un método en #GestorObjetos
 
-[] Actualizar el diagrama de clases
+[W] Actualizar el diagrama de clases
 
 
 Resolver Consultar características
+
+[W] Mostrar los atributos
+
+[W] Añadir un ConsultarInventario() a #Inventario
+
+[W] Llamar a Consultarinventario()
+
+[] Añadir ConsultarInventario() al diagrama de clases
+
 
 Resolver Consultar todos los personajes
 

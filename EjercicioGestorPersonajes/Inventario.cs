@@ -32,5 +32,13 @@ namespace EjercicioGestorPersonajes
         {
 
         }
+        public void ConsultarInventario() // Muestra cada uno de los objetos en el inventario
+        {
+            Console.WriteLine("Inventario:");
+            foreach (Objeto objeto in objetos)
+            {
+                Console.WriteLine($"- {objeto.Nombre}: {objeto.Valor}o");
+            }
+        }
     }
 }
