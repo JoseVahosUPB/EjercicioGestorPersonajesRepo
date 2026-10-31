@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            GestorObjetos.Setup();
+            while (Menu.Principal()) { }
         }
     }
 }

@@ -1,4 +1,4 @@
-@startuml
+@startuml Clases
 skinparam classAttributeIconSize 0
 !theme plain
 
@@ -9,6 +9,7 @@ class GestorPersonajes <<static>>{
 class GestorObjetos <<static>>{
     {static} +Setup(): void
     {static} +GetObjeto(nombre: string): Objeto?
+    {static} +MostrarObjetos(): void
 }
 class Personaje{
     -nombre: string

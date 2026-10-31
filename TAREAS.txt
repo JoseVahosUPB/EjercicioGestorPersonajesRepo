@@ -79,12 +79,17 @@ Menusificación
 
 [W] Actualizar el diagrama de clases
 
-[V] Para cada caso de uso que lo necesite, escribir un formulario (sin validaciones)
+[W] Para cada caso de uso que lo necesite, escribir un formulario (sin validaciones)
 
-[V] Añadir una clase #Opciones subclase de #Menu
+    [W] Añadir una función en #GestorObjetos para mostrar los objetos existentes
 
+[W] Actualizar el diagrama de clases
 
+[W] Añadir una clase #Opciones subclase de #Menu
 
+[W] Escribir Program.Main()
+
+[W] Testear
 
 
 
@@ -95,7 +100,7 @@ Reflexiones
 
 Ojala hubiera una #IGestor que tuviera un GetByName()
 
-
+El programa sería más cómodo si no tuvieras que estar ingresando el nombre del personaje, sino que lo seleccionas una vez y puedes acceder a todas sus opciones para después seleccionar otro
 
 
 

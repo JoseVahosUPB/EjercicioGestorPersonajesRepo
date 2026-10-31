@@ -50,7 +50,7 @@ namespace EjercicioGestorPersonajes
             inventario.CalcularValorTotal();
 
         }
-        public void ModificarPersonajes(string nombre, float vida, int nivel) // Cambia la información del personaje
+        public void ModificarPersonaje(string nombre, float vida, int nivel) // Cambia la información del personaje
         {
             this.nombre = nombre;
             this.vida = vida;

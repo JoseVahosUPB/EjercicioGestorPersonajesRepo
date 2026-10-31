@@ -37,5 +37,13 @@ namespace EjercicioGestorPersonajes
             }
             return null;
         }
+        public static void MostrarObjetos() // Muestra los objetos que existen
+        {
+            Console.WriteLine("Estos son los objetos que existen:");
+            foreach (Objeto objeto in objetos)
+            {
+                Console.WriteLine($"- {objeto.Nombre}: {objeto.Valor}o");
+            }
+        }
     }
 }
